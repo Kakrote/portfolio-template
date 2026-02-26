@@ -23,13 +23,13 @@ export default function Navbar({ data }: { data: NavbarData }) {
   return (
     <header className="
       top-0 
-     w-full bg-transparent
-      py-5
+     w-full   z-50
+      py-5 bg-transparent  backdrop-blur-lg
     ">
-      <div className="container mx-auto px-6 py-4 grid grid-cols-2 lg:grid-cols-3">
+      <div className="container mx-auto  px-6 py-4 grid grid-cols-2 lg:grid-cols-3">
 
         {/* Links */}
-        <nav className="flex gap-6 justify-center items-center">
+        <nav className="flex gap-6 items-center">
           {data.links.map((link, i) => (
             <NavLink key={i} {...link} />
           ))}
@@ -42,7 +42,7 @@ export default function Navbar({ data }: { data: NavbarData }) {
         </div>
 
          {/* Social Link */}
-        <div className="font-bold  flex justify-center items-center dark:text-white gap-6">
+        <div className="font-bold  flex justify-end items-center dark:text-white gap-6">
           {data.socials.map((slink,i)=>(
             <SocialLink key={i} {...slink}/>
           ))}
