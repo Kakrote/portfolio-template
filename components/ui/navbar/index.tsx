@@ -37,8 +37,8 @@ export default function Navbar({ data }: { data: NavbarData }) {
 
         {/* Logo */}
         <div className=" text-lg text-[#101]">
-          <h1 className="text-center font-bold text-xl md:text-3xl lg:text-5xl">{data.logo}</h1>
-          <h2 className="text-center text-base md:text-xl lg:text-3xl">{data.profile}</h2>
+          <h2 className="text-center font-bold">{data.logo}</h2>
+          <h2 className="text-center text-base  ">{data.profile}</h2>
         </div>
 
          {/* Social Link */}

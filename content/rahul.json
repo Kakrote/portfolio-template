@@ -2,7 +2,7 @@
   "theme": "light",
   "navbar": {
     "logo": "Rahul",
-    "profile":"Social Media Executive ",
+    "profile": "Social Media Executive ",
     "links": [
       {
         "label": "Home",
@@ -38,9 +38,9 @@
         "logo": "/images/icons/socials/x.png"
       },
       {
-        "label":"linkedIn",
-        "href":"#",
-        "logo":"/images/icons/socials/linkedIn.png"
+        "label": "linkedIn",
+        "href": "#",
+        "logo": "/images/icons/socials/linkedIn.png"
       }
     ]
   },
@@ -49,8 +49,45 @@
     "subtitle": "From content planning to performance tracking, I create social media strategies that boost engagement, visibility, and real business growth.",
     "cta": "Lets Connect",
     "variant": "modern",
-    "cta2":"Visit My Work",
-    "cta_color":"#6bc533",
+    "cta2": "Visit My Work",
+    "cta_color": "#6bc533",
     "cta_color2": "#000"
-  }
+  },
+  "about": {
+    "name": "Rahul",
+    "describtion": "a Social Media Executive specializing in Instagram, LinkedIn, and performance-based content strategies. I help startups and businesses transform their online presence into measurable growth"
+  },
+  "image":"/images/ayush.png",
+  "experience": {
+    "time": "4+ years",
+    "describtion": "Platforms: Instagram, LinkedIn, Facebook, YouTube Shorts",
+    "skills": [
+      "Content Strategy",
+      "Analytics & Insights",
+      "Paid Campaign Planning",
+      "Brand Positioning"
+    ]
+  },
+  "kpis": [
+    {
+      "title": "Campaigns Managed",
+      "kpi":"120+",
+      "icon":"/images/icons/kpis/cm.png"
+    },
+    {
+      "title": "Avg Engagement Growth:",
+      "kpi":"65%",
+      "icon":"/images/icons/kpis/cm.png"
+    },
+    {
+      "title":"Brands Worked With",
+      "kpi":"50+",
+      "icon":"/images/icons/kpis/cm.png"
+    },
+    {
+      "title":"Audience Reach Generated",
+      "kpi":"2M+",
+      "icon":"/images/icons/kpis/cm.png"
+    }
+  ]
 }
