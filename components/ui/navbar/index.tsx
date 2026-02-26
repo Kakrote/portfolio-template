@@ -22,8 +22,9 @@ type NavbarData = {
 export default function Navbar({ data }: { data: NavbarData }) {
   return (
     <header className="
-      top-0 z-50
-      absolute w-full
+      top-0 
+     w-full bg-transparent
+      py-5
     ">
       <div className="container mx-auto px-6 py-4 grid grid-cols-2 lg:grid-cols-3">
 

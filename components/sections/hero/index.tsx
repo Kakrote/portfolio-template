@@ -11,7 +11,7 @@ type HeroData = {
 export default function Hero({ data }: { data: HeroData }) {
 
   return (
-    <section className="py-20 text-center bg-[#DDD3D3] h-[90vh] "
+    <section className="py-20 text-center bg-[#DDD3D3] h-[80vh] xl:h-[90vh] "
     >
       <main className="flex flex-col justify-center items-center h-full">
         {/* title */}
