@@ -16,7 +16,7 @@ export default function Hero({ data }: { data: HeroData }) {
       <main className="flex flex-col justify-center items-center h-full">
         {/* title */}
         <div className="max-w-5xl mx-auto space-y-10">
-          <h2 className="text-xl md:text-5xl max-w-3xl mx-auto font-bold">{data.title}</h2>
+          <h2 className="text-xl md:text-5xl max-w-4xl mx-auto font-bold">{data.title}</h2>
           <h2 className="text-lg max-w-xl mx-auto font-extralight">{data.subtitle}</h2>
         </div>
 
