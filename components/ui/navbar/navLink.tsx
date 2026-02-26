@@ -10,9 +10,8 @@ export default function NavLink({ label, href }: NavLinkProps) {
     <Link
       href={href}
       className="
-        text-sm font-medium
-        text-gray-700 hover:text-black
-        dark:text-gray-300 dark:hover:text-white
+        text-base font-medium
+       text-[#161515]
       "
     >
       {label}

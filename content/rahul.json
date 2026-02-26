@@ -2,17 +2,55 @@
   "theme": "light",
   "navbar": {
     "logo": "Rahul",
+    "profile":"Social Media Executive ",
     "links": [
-      { "label": "Home", "href": "/" },
-      { "label": "About", "href": "#about" },
-      { "label": "Services", "href": "#services" },
-      { "label": "Contact", "href": "#contact" }
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "socials": [
+      {
+        "label": "instagram",
+        "href": "#",
+        "logo": "/images/icons/socials/insta.png"
+      },
+      {
+        "label": "facebook",
+        "href": "#",
+        "logo": "/images/icons/socials/facebook.png"
+      },
+      {
+        "label": "x",
+        "href": "#",
+        "logo": "/images/icons/socials/x.png"
+      },
+      {
+        "label":"linkedIn",
+        "href":"#",
+        "logo":"/images/icons/socials/linkedIn.png"
+      }
     ]
   },
   "hero": {
-    "title": "Rahul Sharma",
-    "subtitle": "Full Stack Developer",
-    "cta": "Contact Us",
-    "variant": "modern"
+    "title": "Building Brands One Post at a Time.",
+    "subtitle": "From content planning to performance tracking, I create social media strategies that boost engagement, visibility, and real business growth.",
+    "cta": "Lets Connect",
+    "variant": "modern",
+    "cta2":"Visit My Work",
+    "cta_color":"#6bc533",
+    "cta_color2": "#000"
   }
 }
