@@ -89,5 +89,15 @@
       "kpi":"2M+",
       "icon":"/images/icons/kpis/cm3.png"
     }
-  ]
+  ],
+  "workProcess":{
+    "top_Description":"Every brand is different — so I follow a structured yet flexible workflow that turns ideas into measurable growth. From research to reporting, every step is built around strategy, creativity, and performance.",
+    "process":[
+      {"step":"01","label":"Research & Audit"},
+      {"step":"02","label":"Strategy Planning"},
+      {"step":"03","label":"Content Creation"},
+      {"step":"04","label":"Publishing & Optimization"}
+    ],
+    "bottom_Description":"Social media success isn’t about posting more — it’s about posting smarter. I combine creative storytelling with analytics to build brands that people trust and engage with."
+  }
 }

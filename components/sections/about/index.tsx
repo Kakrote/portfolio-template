@@ -26,7 +26,7 @@ type AboutData = {
 
 export default function About({ data }: { data: AboutData }) {
     return (
-        <section className=" bg-white h-[90vh] " id="about">
+        <section className=" bg-white h-[80vh] " id="about">
             <main className="container mx-auto  px-6 pt-10 h-full grid grid-cols-3">
                 {/* right section  */}
                 <div className="flex flex-col gap-10  items-center py-10 max-w-lg  h-fit ">
