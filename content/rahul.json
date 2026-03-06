@@ -99,5 +99,17 @@
       {"step":"04","label":"Publishing & Optimization"}
     ],
     "bottom_Description":"Social media success isn’t about posting more — it’s about posting smarter. I combine creative storytelling with analytics to build brands that people trust and engage with."
+  },
+  "ctaCard":{
+    "name":"Rahul",
+    "description":"a Social Media Executive specializing in Instagram, LinkedIn, and performance-based content strategies. I help startups and businesses transform their online presence into measurable growth",
+    "email":"amanbhatt@gmail.com",
+    "tagLine":"Let’s Turn Your Social Media Into a Growth Engine.",
+    "subTagLine":"Strategy. Creativity. Analytics. Everything your brand needs to stand out in today’s fast-moving digital world.",
+    "cta":[
+      {"kpi":"50+", "title":"Brands Worked With","icon":"/images/icons/kpis/cm.png"},
+      {"kpi":"4.9", "title":"Average Client Rating","icon":"/images/icons/kpis/Star.png"},
+      {"kpi":"65%", "title":"Avg Engagement Growth","icon":"/images/icons/kpis/cm.png"}
+    ]
   }
 }
