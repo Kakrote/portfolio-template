@@ -18,11 +18,11 @@ type ctaCardData = {
 
 export default function CtaCard({ data }: { data: ctaCardData }) {
     return (
-        <section className="grid grid-cols-1 md:grid-cols-[1fr_2fr] h-[95vh]">
+        <section className="grid grid-cols-1 md:grid-cols-[1fr_2fr] h-[100vh]">
             {/* left div  */}
             <div className="w-full bg-[#000] h-full relative flex items-center justify-center">
                 {/* circle box */}
-                <div className="rounded-full w-[600px] h-[600px] absolute -right-70 bg-[#D5DEFF]">
+                <div className="rounded-full w-[600px] h-[600px] shadow-[0_6px_40px_0px] border absolute -right-70 bg-[#D5DEFF]">
                     <div className="container flex items-center justify-center flex-col h-full max-w-md mx-auto text-center space-y-5">
 
                         {/* tag line */}
