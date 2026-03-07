@@ -108,8 +108,17 @@
     "subTagLine":"Strategy. Creativity. Analytics. Everything your brand needs to stand out in today’s fast-moving digital world.",
     "cta":[
       {"kpi":"50+", "title":"Brands Worked With","icon":"/images/icons/kpis/cm.png"},
-      {"kpi":"4.9", "title":"Average Client Rating","icon":"/images/icons/kpis/Star.png"},
+      {"kpi":"4.9", "title":"Average Client Rating","icon":"/images/icons/kpis/star.png"},
       {"kpi":"65%", "title":"Avg Engagement Growth","icon":"/images/icons/kpis/cm.png"}
+    ]
+  },
+  "myServices":{
+    "description":"From content strategy to paid campaigns, I offer a range of services designed to help your brand thrive on social media. Whether you’re looking to boost engagement, grow your audience, or drive real business results, I have the expertise and tools to make it happen.",
+    "services":[
+      {"name":"Content Strategy","description":"Tailored social media strategies that align with your brand goals and audience."},
+      {"name":"Analytics & Reporting","description":"In-depth performance tracking and insights to optimize your social media efforts."},
+      {"name":"Paid Campaigns","description":"Strategic planning and execution of paid social media campaigns for maximum ROI."},
+      {"name":"Brand Positioning","description":"Crafting a unique and compelling brand voice that resonates with your target audience."}
     ]
   }
 }

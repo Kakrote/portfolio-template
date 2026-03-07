@@ -39,7 +39,7 @@ export default function CtaCard({ data }: { data: ctaCardData }) {
             </div>
 
             {/* right div */}
-            <div className="w-full bg-[#fff]  flex flex-col   items-end gap-4 p-10 ">
+            <div className="w-full bg-[#fff]  flex flex-col   items-end gap-4 p-10 px-40 ">
 
 
                 {/* description */}
