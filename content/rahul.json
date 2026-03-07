@@ -120,5 +120,9 @@
       {"name":"Paid Campaigns","description":"Strategic planning and execution of paid social media campaigns for maximum ROI."},
       {"name":"Brand Positioning","description":"Crafting a unique and compelling brand voice that resonates with your target audience."}
     ]
-  }
+  },
+  "testimonials":[
+    {"name":"Ankita Joshi","title":"VP Uttaranchal University","desciption":" “Our Instagram growth doubled within 2 months. The strategy and consistency were amazing.”"},
+    {"name":"Dharam Bhuddi","title":"VC Uttaranchal University","desciption":"“Professional, creative, and data-driven. Our engagement rate went from 2% to 8%.”"}
+  ]
 }
