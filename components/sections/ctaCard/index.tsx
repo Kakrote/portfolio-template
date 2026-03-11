@@ -20,18 +20,18 @@ export default function CtaCard({ data }: { data: ctaCardData }) {
     return (
         <section className="grid grid-cols-1 md:grid-cols-[1fr_2fr]  ">
             {/* left div  */}
-            <div className="w-full bg-[#000] h-full relative flex items-center justify-center ">
+            <div className="w-full bg-black h-full relative flex items-center justify-center ">
                 {/* circle box */}
-                <div className="rounded-full w-[500px] h-[500px] shadow-[0_6px_40px_0px] border absolute -right-70 bg-[#D5DEFF]">
+                <div className="rounded-full w-125 h-125 shadow-[0_6px_40px_0px] border absolute -right-70 bg-[#D5DEFF]">
                     <div className="container flex items-center justify-center flex-col h-full max-w-md mx-auto text-center space-y-5">
 
                         {/* tag line */}
                         <div className="">
-                            <p className="text-xl md:text-2xl lg:text-3xl   text-[#000]">{data.tagLine}</p>
+                            <p className="text-xl md:text-2xl lg:text-3xl   text-black">{data.tagLine}</p>
                         </div>
                         {/* sub tag line */}
                         <div className="">
-                            <p className="text-sm md:text-lg  text-[#000]">{data.subTagLine}</p>
+                            <p className="text-sm md:text-lg  text-black">{data.subTagLine}</p>
                         </div>
                         <a href={`mailto:${data.email}`} className="text-xl md:text-2xl text-[#2112c0] underline hover:opacity-80 transition-opacity">{data.email}</a>
                     </div>
@@ -39,7 +39,7 @@ export default function CtaCard({ data }: { data: ctaCardData }) {
             </div>
 
             {/* right div */}
-            <div className="w-full bg-[#fff]  flex flex-col   items-end gap-4 p-10 px-40 ">
+            <div className="w-full bg-white  flex flex-col   items-end gap-4 p-10 px-40 ">
 
 
                 {/* description */}
@@ -56,7 +56,7 @@ export default function CtaCard({ data }: { data: ctaCardData }) {
                         <div key={index} className="flex flex-col items-center justify-center gap-4">
                             <div className="flex gap-5 items-center justify-center">
                                 <span className="font-bold">{kpi.kpi}</span>
-                                <Image src={kpi.icon} alt={kpi.title} width={34} height={34} />
+                                {kpi.icon && <Image src={kpi.icon} alt={kpi.title} width={34} height={34} />}
                             </div>
                             <span className="block">{kpi.title}</span>
                         </div>
