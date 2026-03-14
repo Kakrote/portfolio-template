@@ -124,5 +124,16 @@
   "testimonials":[
     {"name":"Ankita Joshi","title":"VP Uttaranchal University","desciption":"\"Our Instagram growth doubled within 2 months. The strategy and consistency were amazing.\"","image":"/images/testimonial/ak.jpg"},
     {"name":"Dharam Bhuddi","title":"VC Uttaranchal University","desciption":"\"Professional, creative, and data-driven. Our engagement rate went from 2% to 8%.\"","image":"/images/testimonial/db.jpg"}
-  ]
+  ],
+  "footer":{
+    "email":"amanbhatt@gmail.com",
+    "phone":"+91 9876543210",
+    "address":"123 Main Street, City, Country",
+    "socialMedia":[
+      {"label":"instagram","href":"#","logo":"/images/icons/socials/insta.png"},
+      {"label":"facebook","href":"#","logo":"/images/icons/socials/facebook.png"},
+      {"label":"x","href":"#","logo":"/images/icons/socials/x.png"},
+      {"label":"linkedIn","href":"#","logo":"/images/icons/socials/linkedIn.png"}
+    ]
+  }
 }

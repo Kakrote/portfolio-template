@@ -5,6 +5,7 @@ import WorkProcess from "@/components/sections/work_Process"
 import CtaCard from "@/components/sections/ctaCard"
 import MyServices from "@/components/sections/myServices"
 import Testimonial from "@/components/sections/testimonial"
+import Footer from "@/components/sections/footer"
 
 export default function Page() {
   return (
@@ -15,6 +16,7 @@ export default function Page() {
       <CtaCard data={data.ctaCard} />
       <MyServices data={{description:data.myServices.description, services:data.myServices.services}} />
       <Testimonial data={data.testimonials} />
+      <Footer data={{email:data.footer.email, phone:data.footer.phone, address:data.footer.address, socialMedia:data.footer.socialMedia}} />
     </main>
   )
 }
