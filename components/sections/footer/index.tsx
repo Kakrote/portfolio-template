@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type SocialMedia={
     label:string 
     href:string 
@@ -24,17 +26,17 @@ export default function Footer({data}:{data:footerData}){
                 </div>
                 <div className="flex flex-col gap-4">
                     <h2 className="text-2xl font-bold">Follow Us</h2>
-                    <div className="flex flex-col gap-4">
+                    <div className="flex gap-4">
                         {data.socialMedia.map((social, index) => (
                             <a key={index} href={social.href} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                                <img src={social.logo} alt={social.label} width={24} height={   24} />
-                                {social.label}
+                                <Image src={social.logo} alt={social.label} width={35} height={24} />
+                               
                             </a>   
                         ))}
                     </div>
                 </div>
             </div>
-            <p className="text-sm text-gray-600">&copy; {new Date().getFullYear()} Your Company. All rights reserved.</p>
+            <p className="text-sm text-gray-600">&copy; {new Date().getFullYear()} AmanBhatt. All rights reserved.</p>
         </footer>
     )
 }
